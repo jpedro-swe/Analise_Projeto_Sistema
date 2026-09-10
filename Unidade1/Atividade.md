@@ -19,7 +19,10 @@ modelagens. Ferramentas Case de apoio ao desenho dos diagramas UML.
 | Nome do sistema | Rede de Apoio para Adoção de Plantas (PlantTinder) |
 | Objetivo | Conectar pessoas que desejam adotar plantas com doadores, facilitando a adoção responsável através de um matching de perfil, gestão de anúncios de plantas e comunicação entre usuários. |
 | Público-alvo | Entusiastas de plantas, jardineiros, doadores de plantas e interessados em adoção sustentável. |
-| Responsável pelo levantamento | João Pedro Alves De Sousa, Hélter Brandão De Oliveira, Davi Gonçalves Castro e Jorge Luis Soares do Santos |
+| Responsável pelo levantamento |[João Pedro Alves De Sousa](https://github.com/jpedro-swe)
+- [Hélter Brandão De Oliveira](https://github.com/brandao395)
+- [Davi Gonçalves Castro](https://github.com/MF-DAVI)
+- [Jorge Luis Soares do Santos](https://github.com/7deo)|
 | Versão | 1.0 |
 
 ---

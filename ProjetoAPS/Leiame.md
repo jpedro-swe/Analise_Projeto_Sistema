@@ -6,7 +6,8 @@
 Este projeto é um trabalho acadêmico da disciplina **Engenharia de Software** da Universidade de Brasília (UDF). Ele consiste em uma análise e desenvolvimento de um sistema que aplica princípios fundamentais de engenharia de software.
 
 ### 👥 **WHO** (Quem?)
-- **Desenvolvedor(es):** [João Pedro Alves De Sousa](https://github.com/jpedro-swe)
+- **Desenvolvedor(es):**
+-  [João Pedro Alves De Sousa](https://github.com/jpedro-swe)
 - [Hélter Brandão De Oliveira](https://github.com/brandao395)
 - [Davi Gonçalves Castro](https://github.com/MF-DAVI)
 - [Jorge Luis Soares do Santos](https://github.com/7deo)

@@ -1,85 +1,79 @@
-# Ficha de Elicitação de Requisitos
+# Ficha de Elicitação de Requisitos — REQ-001
 
 **Curso:** Engenharia de Software  
 **Disciplina:** Análise e Projeto de Sistemas  
 **Instituição:** UDF Centro Universitário  
-**Grupo/integrantes:** ______________________________________________  
-**Turma:** ____________________  **Data:** ____/____/______  **Versão:** 1.0
+**Grupo/integrantes:** João Pedro Alves De Sousa, Hélter Brandão De Oliveira, Davi Gonçalves Castro, Jorge Luis Soares do Santos  
+**Turma:** D2 | **Data:** 10/09/2026 | **Versão:** 1.0  
 
-> Preencha uma ficha para cada requisito identificado. Registre a necessidade na linguagem do stakeholder e esclareça termos ambíguos antes de validar a ficha com ele.
+---
 
 ## 1. Identificação do projeto
 
 | Campo | Preenchimento |
 |---|---|
-| Nome do projeto | |
-| Objetivo do projeto | Qual problema será resolvido e qual resultado se espera? |
-| Contexto e escopo | Que processo ou serviço será contemplado? |
+| Nome do projeto | Rede de Apoio para Adoção de Plantas (PlantTinder) |
+| Objetivo do projeto | Facilitar a doação e adoção responsável de plantas por meio do matching de perfis e comunicação direta entre usuários. |
+| Contexto e escopo | Módulo de autenticação, perfil e gerenciamento de acesso. |
+
+---
 
 ## 2. Stakeholder e fonte
 
 | Campo | Preenchimento |
 |---|---|
-| Stakeholder (nome ou papel) | |
-| Relação com o projeto | Usuário, cliente, gestor, especialista ou outro. |
-| Contato ou setor (se aplicável) | |
-| Técnica e data da elicitação | Entrevista, observação, questionário, oficina ou análise documental; data. |
-| Responsável pelo registro | |
+| Stakeholder (nome ou papel) | Todos os Usuários (Doadores e Adotantes) |
+| Relação com o projeto | Usuário final |
+| Contato ou setor (se aplicável) | Comunidade doadores/adotantes de plantas |
+| Técnica e data da elicitação | Entrevista / Questionário (10/09/2026) |
+| Responsável pelo registro | Davi Gonçalves Castro |
+
+---
 
 ## 3. Requisito elicitado
 
 | Campo | Preenchimento |
 |---|---|
-| ID do requisito | REQ-001 (numeração sequencial). |
-| Necessidade relatada pelo stakeholder | Registre o que foi solicitado, de preferência com as palavras utilizadas na elicitação. |
-| Descrição consolidada | O sistema deve... (ação observável, objeto e condições relevantes). |
-| Justificativa ou benefício esperado | |
-| Tipo | Funcional / qualidade / restrição. |
-| Dependências ou dúvidas | |
+| ID do requisito | REQ-001 (RF01) |
+| Necessidade relatada pelo stakeholder | "Preciso me cadastrar na plataforma para poder doar ou adotar plantas de forma segura." |
+| Descrição consolidada | O sistema deve permitir que novos usuários se cadastrem na plataforma fornecendo dados pessoais (nome, e-mail, senha, localização) e preferências de cultivo. |
+| Justificativa ou benefício esperado | Garantir a identificação, rastreabilidade e segurança dos usuários na comunidade. |
+| Tipo | Funcional |
+| Dependências ou dúvidas | Depende de validação das diretrizes da LGPD (RNF01). |
+
+---
 
 ## 4. Regras de negócio
 
 | ID | Regra de negócio relacionada | Fonte ou responsável pela validação |
 |---|---|---|
-| RN-001 | | |
-| RN-002 | | |
+| RN-001 | Usuários devem estar autenticados para acessar funções sensíveis. | RNF01 (Segurança) |
+| RN-002 | O e-mail cadastrado deve ser único na plataforma. | Equipe de Desenvolvimento |
 
-> Descreva políticas, condições e limites do domínio. Caso nenhuma regra tenha sido identificada, registre “Não identificada nesta etapa”.
+---
 
 ## 5. Prioridade
 
-**Classificação MoSCoW (marque uma):** [ ] Must have (essencial)  [ ] Should have (importante)  [ ] Could have (desejável)  [ ] Won't have nesta versão (fora do escopo atual)
+**Classificação MoSCoW:** [X] Must have (essencial)  [ ] Should have  [ ] Could have  [ ] Won't have nesta versão  
 
-**Justificativa da prioridade:** ______________________________________________
+**Justificativa da prioridade:** Sem cadastro e autenticação, o sistema não possui controle de acesso nem segurança para os dados pessoais.
+
+---
 
 ## 6. Critérios de aceitação
 
-Escreva condições verificáveis que permitam decidir se o requisito foi atendido.
-
 | ID | Dado/Quando | Então (resultado esperado) | Evidência ou forma de verificação |
 |---|---|---|---|
-| CA-01 | | | |
-| CA-02 | | | |
-| CA-03 | | | |
+| CA-01 | Dado que o usuário preencheu todos os campos obrigatórios válidos, quando clicar em "Cadastrar", então o sistema cria a conta e redireciona para a tela inicial. | Teste de cadastro com dados válidos e checagem no banco de dados. |
+| CA-02 | Dado que o e-mail informado já está cadastrado, quando o usuário tentar finalizar o cadastro, então o sistema exibe mensagem de erro e impede o cadastro duplicado. | Teste unitário de e-mail duplicado. |
+
+---
 
 ## 7. Validação e rastreabilidade
 
 | Campo | Preenchimento |
 |---|---|
-| Situação | [ ] Pendente de validação  [ ] Validado  [ ] Necessita revisão |
-| Validado por / data | |
-| Observações e decisões | |
-| Links relacionados | Issue, protótipo, caso de uso ou documento de origem. |
-
-## Exemplo breve (fictício)
-
-**Projeto:** Sistema de agendamento de atendimento acadêmico. **Objetivo:** permitir que estudantes reservem horários disponíveis. **Stakeholder:** estudante; entrevista em 24/09/2026. **REQ-001:** “Quero escolher um horário de atendimento pelo celular”. **Descrição:** O sistema deve permitir ao estudante autenticado reservar um horário disponível de atendimento. **RN-001:** um horário não pode receber mais de uma reserva ativa. **Prioridade:** Must have, pois a reserva é a função central. **CA-01:** dado um horário disponível, quando o estudante confirmar a reserva, então o sistema registra a reserva e retira o horário da lista de disponibilidade. **CA-02:** dado um horário já reservado, quando outro estudante tentar reservá-lo, então o sistema impede a duplicidade e apresenta uma mensagem clara.
-
-
-## Documentação de requisitos
-
-- [Ficha de elicitação REQ-001](docs/requisitos/ficha-elicitacao-REQ-001.md)
-- [Versão para impressão (PDF)](docs/requisitos/ficha-elicitacao-REQ-001.pdf)
-```
-
-5. Confira no GitHub se os links abrem e se o ID do arquivo coincide com o ID registrado na ficha. Atualize a ficha após validação, preservando o histórico de commits.
+| Situação | [ ] Pendente de validação  [X] Validado  [ ] Necessita revisão |
+| Validado por / data | Profª Kadidja Valéria / 10/09/2026 |
+| Observações e decisões | Senhas devem ser armazenadas com criptografia (hash seguro). |
+| Links relacionados | [RF01 no Documento Principal](https://github.com/MF-DAVI) |

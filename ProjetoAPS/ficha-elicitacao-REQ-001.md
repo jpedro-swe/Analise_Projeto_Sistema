@@ -68,4 +68,4 @@ Escreva condições verificáveis que permitam decidir se o requisito foi atendi
 | Situação | [ ] Pendente de validação  [x] Validado  [ ] Necessita revisão |
 | Validado por / data | Profª Kadidja Valéria / 24 de setembro de 2026. |
 | Observações e decisões | Requisito classificado como Must have e incluído na primeira versão (MVP, ordem 1). Senhas obrigatoriamente salvas com hash seguro e dados pessoais protegidos sob os princípios da LGPD. |
-| Links relacionados | Rastreabilidade: N01 → ST01 / ST02 → REQ-001 (RF01), relacionado a RF02, RF04, RNF01 e RNF02.<br>[Board do projeto no Miro](https://miro.com/app/board/uXjVHo3jFqo=/)<br>[Repositório GitHub — PlantTinder (MF-DAVI)](https://github.com/MF-DAVI) |
+| Links relacionados | Rastreabilidade: N01 → ST01 / ST02 → REQ-001 (RF01), relacionado a RF02, RF04, RNF01 e RNF02.<br>[Board do projeto no Miro](https://miro.com/app/board/uXjVHo3jFqo=/)<br>[Repositório GitHub — PlantTinder](https://github.com/jpedro-swe/Analise_Projeto_Sistema) |

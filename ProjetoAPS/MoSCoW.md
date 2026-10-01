@@ -15,9 +15,9 @@ Link do Template: https://miro.com/app/board/uXjVHo3jFqo=/
 
 | Integrante | Nome |
 |---|---|
-| 1 | [João Pedro Alves De Sousa](https://github/jpedro-swe)|
-| 2 |[Hélter Brandão De Oliveira](https://github/brandao395)|
-| 3 | [Davi Gonçalves Castro](https://github/MF-DAVI)|
+| 1 | [João Pedro Alves De Sousa](https://github.com/jpedro-swe)|
+| 2 |[Hélter Brandão De Oliveira](https://github.com/brandao395)|
+| 3 | [Davi Gonçalves Castro](https://github.com/MF-DAVI)|
 | 4 | [Jorge Luis Soares do Santos](https://github.com/7deo)|
 
 ---

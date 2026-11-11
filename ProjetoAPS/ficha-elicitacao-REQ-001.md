@@ -4,7 +4,7 @@
 **Disciplina:** Análise e Projeto de Sistemas  
 **Instituição:** UDF Centro Universitário  
 **Grupo/integrantes:** [João Pedro Alves De Sousa](https://github.com/jpedro-swe) | [Hélter Brandão De Oliveira](https://github.com/brandao395) | [Davi Gonçalves Castro](https://github.com/MF-DAVI) | [Jorge Luis Soares do Santos](https://github.com/7deo)  
-**Turma:** D2 - Engenharia de Software  **Data:** 24/09/2026  **Versão:** 1.0  
+**Turma:** D2 - Engenharia de Software  **Data:** 24/09/2026  **Versão:** 1.2  
 
 ---
 
@@ -14,16 +14,16 @@
 |---|---|
 | Nome do projeto | Rede de Apoio para Adoção de Plantas (PlantTinder) |
 | Objetivo do projeto | O projeto consiste no desenvolvimento de uma plataforma digital focada em conectar pessoas interessadas em adotar plantas com doadores. O objetivo principal é facilitar a adoção responsável por meio do matching de perfis, gerenciamento de anúncios e comunicação direta entre os usuários, reduzindo o descarte inadequado e a falta de informação sobre o manejo de espécies. |
-| Contexto e escopo | Sistema web que permite a doadores e adotantes o cadastro de perfis, gerenciamento de anúncios de plantas, busca avançada por critérios (porte, espécie, localização), envio de solicitações de adoção e chat de comunicação. Nesta etapa, o trabalho se concentra na análise e levantamento de requisitos e elicitação por fichas padronizadas, sem envolver o desenvolvimento da infraestrutura completa. |
+| Contexto e escopo | Sistema web que permite a doadores e adotantes o cadastro de perfis, gerenciamento de anúncios de plantas, busca avançada por critérios (porte, espécie, localização), envio de solicitações de adoção e chat de comunicação, tendo o espaço físico **Plantarium Laboratório Verde** como ponto de referência institucional. Nesta etapa, o trabalho se concentra na análise e levantamento de requisitos e elicitação por fichas padronizadas, sem envolver o desenvolvimento da infraestrutura completa. |
 
 ## 2. Stakeholder e fonte
 
 | Campo | Preenchimento |
 |---|---|
-| Stakeholder (nome ou papel) | ST01 e ST02 — Doadores e Adotantes de Plantas (Stakeholders principais). |
-| Relação com o projeto | Usuários principais: são diretamente afetados pela dificuldade de encontrar lares adequados para suas plantas ou de encontrar espécies para adoção de forma confiável e centralizada. Influência: alta. |
-| Contato ou setor (se aplicável) | Comunidade de entusiastas de plantas, jardineiros amadores e pessoas interessadas em doação responsável. |
-| Técnica e data da elicitação | Entrevista e questionário com usuários potenciais; 24 de setembro de 2026. |
+| Stakeholder (nome ou papel) | **ST01 — Prof. Ciro Yoshio Joko** (Stakeholder Principal - Professor, Coordenador do curso de Ciências Biológicas e responsável pelo Plantarium Laboratório Verde). |
+| Relação com o projeto | **Stakeholder Principal / Patrocinador Institucional:** Fornece o aval e o suporte institucional do Plantarium Laboratório Verde como base de apoio e referência para a viabilidade do projeto na instituição.<br>*(ST02/ST03 - Doadores e Adotantes atuam como usuários finais do sistema).* |
+| Contato ou setor (se aplicável) | Coordenação do curso de Ciências Biológicas / Plantarium Laboratório Verde e comunidade acadêmica. |
+| Técnica e data da elicitação | Entrevista e alinhamento institucional com o responsável do espaço; 24 de setembro de 2026. |
 | Responsável pelo registro | Davi Gonçalves Castro |
 
 ## 3. Requisito elicitado
@@ -31,7 +31,7 @@
 | Campo | Preenchimento |
 |---|---|
 | ID do requisito | REQ-001 (corresponde ao RF01 do levantamento do grupo). |
-| Necessidade relatada pelo stakeholder | N01 — “Criar conta para acessar a plataforma”: o usuário necessita de um ambiente seguro e identificado para poder realizar doações ou solicitações de adoção de forma rastreável. |
+| Necessidade relatada pelo stakeholder | N01 — “Criar conta para acessar a plataforma”: necessidade de um ambiente seguro e identificado para que os usuários realizem doações ou solicitações de adoção de forma rastreável no ambiente do projeto. |
 | Descrição consolidada | O sistema deve permitir que novos usuários se cadastrem na plataforma informando seus dados pessoais (nome, e-mail, senha, localização) e preferências de plantas. |
 | Justificativa ou benefício esperado | É a função de entrada do sistema. Garante a autenticação, controle de acesso e rastreabilidade da comunidade de doadores e adotantes, assegurando o cumprimento de normas de segurança. |
 | Tipo | Funcional. |
@@ -68,4 +68,4 @@ Escreva condições verificáveis que permitam decidir se o requisito foi atendi
 | Situação | [ ] Pendente de validação  [x] Validado  [ ] Necessita revisão |
 | Validado por / data | Profª Kadidja Valéria / 24 de setembro de 2026. |
 | Observações e decisões | Requisito classificado como Must have e incluído na primeira versão (MVP, ordem 1). Senhas obrigatoriamente salvas com hash seguro e dados pessoais protegidos sob os princípios da LGPD. |
-| Links relacionados | Rastreabilidade: N01 → ST01 / ST02 → REQ-001 (RF01), relacionado a RF02, RF04, RNF01 e RNF02.<br>[Board do projeto no Miro](https://miro.com/app/board/uXjVHo3jFqo=/?share_link_id=454959372992)<br>[Repositório GitHub — PlantTinder](https://github.com/jpedro-swe/Analise_Projeto_Sistema/tree/main/ProjetoAPS) |
+| Links relacionados | Rastreabilidade: N01 → ST01 (Prof. Ciro Yoshio Joko) / ST02 / ST03 → REQ-001 (RF01), relacionado a RF02, RF04, RNF01 e RNF02.<br>[Board do projeto no Miro](https://miro.com/app/board/uXjVHo3jFqo=/?share_link_id=454959372992)<br>[Repositório GitHub — PlantTinder](https://github.com/jpedro-swe/Analise_Projeto_Sistema/tree/main/ProjetoAPS) |

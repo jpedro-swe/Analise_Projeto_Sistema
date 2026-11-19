@@ -1,134 +1,204 @@
-# Analise_Projeto_Sistema
-
 <div align="center">
 
-  <img src="https://img.shields.io/badge/Status-Academico%20%7C%20Em%20desenvolvimento-blue" alt="Status do projeto" />
-  <img src="https://img.shields.io/badge/Disciplina-Engenharia%20de%20Software-orange" alt="Disciplina" />
-  <img src="https://img.shields.io/badge/Institui%C3%A7%C3%A3o-UDF-9cf" alt="Instituição" />
-  <img src="https://img.shields.io/badge/Licen%C3%A7a-CC0%201.0-lightgrey" alt="Licença" />
+# 🌱 Analise_Projeto_Sistema
+
+### Engenharia de Software • UDF • Análise e Projeto de Sistemas
+
+[![Status](https://img.shields.io/badge/status-em%20desenvolvimento-blue?style=for-the-badge)](#status-do-projeto)
+[![Disciplina](https://img.shields.io/badge/disciplina-eng.%20de%20software-orange?style=for-the-badge)](#sobre-a-disciplina)
+[![Instituição](https://img.shields.io/badge/instituição-UDF-1f6feb?style=for-the-badge)](https://www.udf.edu.br)
+[![Licença](https://img.shields.io/badge/licença-CC0%201.0-lightgrey?style=for-the-badge)](LICENSE)
+
+<br>
+
+<a href="https://plantinderjhd.vercel.app/">
+  <img src="https://img.shields.io/badge/🚀_Abrir_PlanTinder-22c55e?style=for-the-badge&logo=vercel&logoColor=white" alt="Abrir o site PlanTinder">
+</a>
+<a href="#navegação-rápida">
+  <img src="https://img.shields.io/badge/📚_Explorar_documentação-6366f1?style=for-the-badge" alt="Explorar a documentação">
+</a>
 
 </div>
 
-Repositório dedicado à análise e ao projeto de sistemas da disciplina de Engenharia de Software, com foco em metodologias, requisitos, modelagem e documentação de sistemas de informação.
+---
 
-## Visão Geral
+## 🌿 Sobre o repositório
 
-Este projeto reúne materiais acadêmicos e artefatos de engenharia de software desenvolvidos para estudar fundamentos de análise e projeto de sistemas, incluindo:
+Este repositório reúne os estudos, análises e artefatos desenvolvidos na disciplina **Análise e Projeto de Sistemas** do curso de Engenharia de Software da UDF.
 
-- levantamento e priorização de requisitos;
-- documentação de contexto e objetivos do sistema;
-- modelagem de casos de uso;
-- visão estratégica e de negócio;
-- organização de artefatos por unidade de ensino.
+O trabalho centraliza as etapas de engenharia de requisitos e modelagem do sistema **PlanTinder**, uma solução criada para auxiliar na escolha de plantas com base em preferências e necessidades do usuário.
 
-## Objetivos
+### Objetivos
 
-- Aplicar conceitos de análise e projeto de sistemas;
-- Compreender metodologias de desenvolvimento orientadas a objetos;
-- Produzir documentação técnica e acadêmica consistente;
-- Explorar a modelagem de sistemas e requisitos estruturados;
-- Consolidar o conhecimento da disciplina em um repositório organizado.
+- 📋 Aplicar técnicas de levantamento e elicitação de requisitos;
+- 🔎 Documentar contexto, objetivos e necessidades dos stakeholders;
+- 🗂️ Organizar e priorizar requisitos com a abordagem MoSCoW;
+- 🧩 Modelar processos e comportamentos por meio de diagramas UML;
+- 📝 Consolidar conhecimento acadêmico em documentação técnica;
+- 🌱 Desenvolver e apresentar um protótipo funcional do sistema.
 
-## Estrutura do Repositório
+---
+
+## 🌱 Projeto PlanTinder
+
+O **PlanTinder** é uma proposta de plataforma para aproximação entre pessoas e plantas, com foco em uma experiência simples e personalizada.
+
+Os materiais do projeto incluem:
+
+- definição de escopo e estratégia;
+- ficha de elicitação de requisitos;
+- priorização dos requisitos;
+- visão estratégica;
+- casos de uso;
+- diagramas de atividade e objetos;
+- protótipo publicado em ambiente web.
+
+<div align="center">
+
+### [🌐 Acessar o protótipo](https://plantinderjhd.vercel.app/) · [📖 Leia mais sobre o site](PlanTinderSite/Readme.md)
+
+</div>
+
+---
+
+## 🧭 Navegação rápida
+
+| Área | Conteúdo | Acesso |
+|---|---|---|
+| **Projeto principal** | Contexto, visão geral e documentação central | [ProjetoAPS](ProjetoAPS/) |
+| **Requisitos** | Priorização dos requisitos com MoSCoW | [MoSCoW.md](ProjetoAPS/MoSCoW.md) |
+| **Elicitação** | Ficha detalhada do requisito REQ-001 | [Ficha Markdown](ProjetoAPS/ficha-elicitacao-REQ-001.md) · [Ficha PDF](ProjetoAPS/Ficha%20de%20Elicita%C3%A7%C3%A3o%20-%20REQ-001%20PlantTinder.pdf) |
+| **Estratégia** | Documento de estratégia e visão do produto | [Estratégia e Visão](Unidade4/Estratégia%20e%20Visão%20-%20PlantTinder.pdf) |
+| **Casos de uso** | Listagem e descrição dos casos de uso | [CASOS_de_USO.md](Unidade4/ModelagemSistemas/CASOS_de_USO.md) |
+| **Diagrama de casos de uso** | Representação gráfica dos casos de uso | [Abrir PDF](Unidade4/ModelagemSistemas/Use%20Case%20Diagram%20Team%20Whiteboard%20in%20Red%20Yellow%20Purple%20Trendy%20Stickers%20Style-3.pdf) |
+| **Diagramas UML** | Atividade e diagramas de objetos | [Documentação UML](DocumentaçãoUML/Readme.md) |
+| **Unidade 1** | Conteúdos introdutórios | [Unidade1](Unidade1/) |
+| **Unidade 2** | Atividades da segunda unidade | [Unidade2](Unidade2/) |
+| **Unidade 4** | Modelagem e visão do sistema | [Unidade4](Unidade4/) |
+
+---
+
+## 📂 Estrutura do repositório
 
 ```text
 Analise_Projeto_Sistema/
-├── LICENSE
-├── README.md
-├── ProjetoAPS/
+├── 🌐 PlanTinderSite/              # Acesso ao protótipo publicado
+├── 📋 ProjetoAPS/                  # Documentação central do projeto
 │   ├── Leiame.md
 │   ├── MoSCoW.md
 │   ├── ficha-elicitacao-REQ-001.md
-│   ├── ficha-elicitacao-REQ-001.pdf
 │   └── Documentacao/
-├── Unidade1/
-│   └── Aulainaugural.md
-├── Unidade2/
-│   └── Atividade.md
-├── Unidade4/
+├── 🎓 Unidade1/                    # Introdução à disciplina
+├── 🎓 Unidade2/                    # Atividades e análise de requisitos
+├── 🎓 Unidade4/                    # Estratégia, visão e casos de uso
 │   ├── Estratégia e Visão - PlantTinder.pdf
 │   └── ModelagemSistemas/
-│       └── CASOS_de_USO.md
-└── .gitignore
+├── 🧩 DocumentaçãoUML/             # Diagramas de atividade e objetos
+├── ⚖️ LICENSE                     # Licença CC0 1.0
+└── 📖 README.md
 ```
 
-## Principais Artefatos
+---
 
-### ProjetoAPS
-Pasta principal com a documentação do projeto acadêmico, incluindo:
+## 🧩 Metodologia
 
-- definição do escopo e contexto;
-- documentação de requisitos;
-- priorização de requisitos com abordagem MoSCoW;
-- fichas de elicitação;
-- materiais de apoio e organização da documentação.
+O conteúdo deste repositório acompanha as etapas fundamentais de análise e projeto de sistemas:
 
-### Unidade 1
-Conteúdo introdutório sobre a disciplina e os primeiros conceitos de análise e projeto de sistemas.
+```mermaid
+flowchart LR
+    A[Identificação do problema] --> B[Análise do contexto]
+    B --> C[Elicitação de requisitos]
+    C --> D[Priorização MoSCoW]
+    D --> E[Modelagem UML]
+    E --> F[Documentação]
+    F --> G[Protótipo]
+```
 
-### Unidade 2
-Atividades e materiais relacionados ao processo de análise, requisitos e organização do trabalho acadêmico.
+### Artefatos utilizados
 
-### Unidade 4
-Materiais de modelagem e visão estratégica, com foco em:
+- **Requisitos funcionais e não funcionais**;
+- **Fichas de elicitação**;
+- **Priorização MoSCoW**;
+- **Casos de uso**;
+- **Diagramas UML**;
+- **Documento de estratégia e visão**;
+- **Protótipo web**.
 
-- visão do sistema;
-- estratégia de solução;
-- casos de uso;
-- documentação de modelagem de sistemas.
+---
 
-## Metodologia e Abordagem
+## 🖼️ Diagramas UML
 
-O repositório está alinhado com práticas comuns de engenharia de software, incluindo:
+<div align="center">
 
-- levantamento de requisitos;
-- análise de problema e contexto;
-- priorização de funcionalidades;
-- modelagem de processos e casos de uso;
-- documentação técnica para comunicação entre stakeholders e equipe.
+<a href="DocumentaçãoUML/Diagrama_de_Atividade.jpg">
+  <img src="DocumentaçãoUML/Diagrama_de_Atividade.jpg" alt="Diagrama de atividade" width="45%">
+</a>
+<a href="DocumentaçãoUML/diagramas_objetos_UML.jpeg">
+  <img src="DocumentaçãoUML/diagramas_objetos_UML.jpeg" alt="Diagramas de objetos UML" width="45%">
+</a>
 
-## Como Usar
+</div>
 
-Clone o repositório:
+---
+
+## 🚀 Como utilizar
+
+### 1. Clonar o repositório
 
 ```bash
 git clone https://github.com/jpedro-swe/Analise_Projeto_Sistema.git
 cd Analise_Projeto_Sistema
 ```
 
-Depois, navegue pelas pastas conforme a unidade ou o artefato desejado:
-
-```bash
-ls
-```
-
-Para acessar a documentação principal:
+### 2. Navegar pela documentação
 
 ```bash
 cd ProjetoAPS
 ```
 
-## Contribuidores
+Os artefatos podem ser consultados diretamente pelo GitHub ou baixados para utilização acadêmica.
 
-- João Pedro Alves De Sousa
-- Hélter Brandão De Oliveira
-- Davi Gonçalves Castro
-- Jorge Luis Soares do Santos
+### 3. Acessar o PlanTinder
 
-## Status do Projeto
-
-Este projeto está em desenvolvimento como material acadêmico e documentativo. As entregas e artefatos podem ser atualizados conforme a evolução da disciplina.
-
-## Licença
-
-Este repositório está licenciado sob a licença [CC0 1.0 Universal](LICENSE).
-
-## Contato
-
-Para dúvidas, sugestões ou discussões sobre o projeto, utilize a área de [issues do repositório](https://github.com/jpedro-swe/Analise_Projeto_Sistema/issues).
+Abra o [protótipo publicado](https://plantinderjhd.vercel.app/) em seu navegador.
 
 ---
 
-<p align="center">
-  <strong>Engenharia de Software • UDF • Análise e Projeto de Sistemas</strong>
-</p>
+## 👥 Equipe
+
+| Integrante |
+|---|
+| João Pedro Alves De Sousa |
+| Hélter Brandão De Oliveira |
+| Davi Gonçalves Castro |
+| Jorge Luis Soares do Santos |
+
+---
+
+## 📌 Status do projeto
+
+Este projeto está em **desenvolvimento como material acadêmico e documentativo**. Novas análises, requisitos, modelagens e melhorias no protótipo poderão ser incorporadas ao longo da disciplina.
+
+- [x] Levantamento inicial de requisitos;
+- [x] Priorização MoSCoW;
+- [x] Estratégia e visão;
+- [x] Casos de uso;
+- [x] Diagramas UML;
+- [x] Protótipo web publicado;
+- [ ] Expansão e refinamento da documentação.
+
+---
+
+## 📄 Licença
+
+Este repositório está disponível sob a licença **[CC0 1.0 Universal](LICENSE)**, permitindo reutilização e adaptação sem restrições.
+
+## 💬 Contato
+
+Dúvidas ou sugestões podem ser enviadas pela [área de issues](https://github.com/jpedro-swe/Analise_Projeto_Sistema/issues).
+
+<div align="center">
+
+**🌱 Engenharia de Software • UDF • Análise e Projeto de Sistemas 🌱**
+
+</div>

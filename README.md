@@ -14,7 +14,7 @@
 <a href="https://plantinderjhd.vercel.app/">
   <img src="https://img.shields.io/badge/🚀_Abrir_PlanTinder-22c55e?style=for-the-badge&logo=vercel&logoColor=white" alt="Abrir o site PlanTinder">
 </a>
-<a href="#navegação-rápida">
+<a href="DocumentaçãoUML/Readme.md">
   <img src="https://img.shields.io/badge/📚_Explorar_documentação-6366f1?style=for-the-badge" alt="Explorar a documentação">
 </a>
 
@@ -153,7 +153,7 @@ cd Analise_Projeto_Sistema
 ### 2. Navegar pela documentação
 
 ```bash
-cd ProjetoAPS
+cd DocumentaçãoUML
 ```
 
 Os artefatos podem ser consultados diretamente pelo GitHub ou baixados para utilização acadêmica.

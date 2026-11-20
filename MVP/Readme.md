@@ -17,7 +17,7 @@ Esta pasta reúne a apresentação executiva (PITCH), a demonstração em vídeo
 ## 🚀 Apresentação da Solução (PITCH)
 
 Você pode visualizar a apresentação de slides diretamente através do arquivo nesta pasta:
-* [📄 Baixar/Visualizar Apresentação do PITCH (PDF)](./PlanTinder_Pitch.pdf)
+* [📄 Baixar/Visualizar Apresentação do PITCH (PDF)](./MVP/PITCHPlanTinder.pdf)
 
 ---
 

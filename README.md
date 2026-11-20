@@ -55,7 +55,7 @@ Os materiais do projeto incluem:
 
 <div align="center">
 
-### [🌐 Acessar o protótipo](https://plantinderjhd.vercel.app/) · [📖 Leia mais sobre o site](PlanTinderSite/Readme.md)
+### [🌐 Acessar o protótipo](https://plantinderjhd.vercel.app/) · [📖 Leia mais sobre o site](ProjetoAPS/Documentacao/Projeto_ APS_Plantinder.docx)
 
 </div>
 

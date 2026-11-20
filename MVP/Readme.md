@@ -42,4 +42,4 @@ Assista à demonstração das principais funcionalidades do PlanTinder em ação
 ## 🌐 Acesse o Projeto Online
 
 O projeto está publicado e funcional através do GitHub Pages:
-👉 **[Acessar PlanTinder no GitHub Pages](https://seu-usuario.github.io/Analise_Projeto_Sistema/)**
+👉 **[Acessar PlanTinder no GitHub Pages]([https://seu-usuario.github.io/Analise_Projeto_Sistema/](https://jpedro-swe.github.io/Analise_Projeto_Sistema/))**

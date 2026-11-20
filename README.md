@@ -4,7 +4,7 @@
 
 ### Engenharia de Software • UDF • Análise e Projeto de Sistemas
 
-[![Status](https://img.shields.io/badge/status-em%20desenvolvimento-blue?style=for-the-badge)](#status-do-projeto)
+[![Status](https://img.shields.io/badge/status-%20Concluido-blue?style=for-the-badge)](#status-do-projeto)
 [![Disciplina](https://img.shields.io/badge/disciplina-eng.%20de%20software-orange?style=for-the-badge)](#sobre-a-disciplina)
 [![Instituição](https://img.shields.io/badge/instituição-UDF-1f6feb?style=for-the-badge)](https://www.udf.edu.br)
 [![Licença](https://img.shields.io/badge/licença-CC0%201.0-lightgrey?style=for-the-badge)](LICENSE)

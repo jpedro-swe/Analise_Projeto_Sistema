@@ -15,7 +15,7 @@ Acesse a versão interativa do projeto publicada e rodando no GitHub Pages:
 
 Os arquivos e materiais de encerramento da entrega executiva do projeto estão organizados na pasta [`MVP/`](./):
 
-* 📄 **Apresentação (PITCH):** [`PITCH_PlanTinder.pdf`](./PITCH_PlanTinder.pdf) *(ou formato fonte [`PITCH_PlanTinder.md`](./PITCH_PlanTinder.md))*[cite: 1]
+* 📄 **Apresentação (PITCH):** [`PITCH_PlanTinder.pdf`](./MVP/demonstraçãoPlanTinder.mp4)
 * 🎥 **Vídeo de Demonstração:** [`demonstracao.mp4`](./demonstracao.mp4) *(ou consulte o link no repositório)*[cite: 1]
 * 📑 **Documentação do MVP:** [`README.md`](./README.md)[cite: 1]
 

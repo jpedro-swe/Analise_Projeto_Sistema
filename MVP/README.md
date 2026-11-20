@@ -16,7 +16,7 @@ Acesse a versão interativa do projeto publicada no GitHub Pages:
 Os arquivos e materiais de encerramento do projeto estão disponíveis nesta pasta:
 
 * 📄 **Apresentação (PITCH):** [PITCH_PlanTinder.pdf](../MVP/PITCH.PlanTinder.pdf)
-* 🎥 **Vídeo de Demonstração:** [demonstracao.mp4](./MVP/demonstracaoPlanTinder.mp4)
+* 🎥 **Vídeo de Demonstração:** [demonstracao.mp4](../MVP/demonstracaoPlanTinder.mp4)
 * 📑 **Documentação do MVP:** [README.md](./README.md)
 
 ---
